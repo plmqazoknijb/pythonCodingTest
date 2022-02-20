@@ -18,3 +18,9 @@ def solution(N, stages):
     answer = sorted(answer, key=lambda t: t[1], reverse=True)
     answer = [i[0] for i in answer]
     return answer
+
+# Test Case
+ret = solution(5,[2, 1, 2, 6, 2, 4, 3, 3])
+print(ret)
+ret = solution(4,[4,4,4,4,4])
+print(ret)
